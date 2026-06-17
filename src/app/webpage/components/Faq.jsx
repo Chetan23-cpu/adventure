@@ -1,6 +1,6 @@
 import Pretile from "./Pretitle";
 import { motion } from "framer-motion";
-import { fadeIn } from "../../variants";
+import { fadeIn } from "../../../../variants";
 import FaqItem from "./FaqItem";
 
 const faqItemsData = [

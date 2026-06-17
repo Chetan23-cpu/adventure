@@ -1,0 +1,158 @@
+.container{
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+} 
+
+.header{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #ffd76e;
+    color: #121315;
+    padding: 0 10px;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 900px;
+    
+}
+.form{
+    flex:1;
+    border: 1px solid #696969;
+    border-radius: 5px;
+    padding-bottom: 30px;
+    width: 550px; 
+    position: relative;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.billing{
+    flex:1;
+    border-radius: 5px;
+    width: 550px; 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.sectionheader{
+    margin-right: 50px;
+    width: 120px;   
+    font-size: 20;
+}
+
+.sectionvalue{
+    margin-left: 50px;
+    border: 2px solid #ccd1d9;
+    padding: 5px;
+    border-radius: 5px;
+    flex: 1;  
+}
+
+.headertext{
+    padding: 10px 0 10px 0;
+}
+.button{
+   display: flex;         
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.subtotal, .taxes, .total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;  
+    
+}
+.subtotal{
+    padding: 30px 30px 20px 30px;
+}
+.subtotal_label, .subtotal_value, .tax_label, .tax_value{
+    font-size: 20px;
+    font-weight: 800;
+    
+}
+
+.total_label, .total_value{
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.taxes{
+    padding: 10px 30px 20px 30px;
+                    
+}
+.total{
+    padding: 30px 30px 20px 30px;
+    border-top: 1px solid #ccd1d9;   /* ✅ light separator line */
+    margin: 0 20px;   
+}
+
+.sport, .court, .person, .start_time, .end_time{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 30px 20px 30px;
+}
+.sport{
+    margin-top: 15px;
+}
+.court{
+
+}
+.person{
+ 
+}
+.start_time{
+
+}
+.end_time{
+
+}
+
+.card2{
+    border: 1px solid #696969;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.card3{
+    border: 1px solid #696969;
+    border-radius: 5px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.form2{
+    flex:1;
+}
+
+.form3{
+    flex:1;
+}
+
+.sport_label, .court_label, .person_label, .start_time_label, .end_time_label,
+.sport_value, .court_value, .person_value, .start_time_value, .end_time_value{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sport, .court, .person, .start_time, .end_time{
+    justify-content: space-between;
+    align-items: center;
+}

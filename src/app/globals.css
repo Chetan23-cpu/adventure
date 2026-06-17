@@ -3,7 +3,7 @@
 @import "shadcn/tailwind.css";
 
 @theme {
-  --color-primary: #121315;
+  --color-primary: #000000;
   --color-secondary: #666666;
   --color-accent: #ffca3b;
   --color-border: #d7d7d7;
@@ -17,7 +17,10 @@
 
   --shadow-custom: 0px 4px 54px 10px rgba(18, 19, 21, 0.06);
 
-  --background-image-hero: url('/assets/img/hero/bg.jpg');
+  --background-image-hero: url('/assets/img/hero/hero_home_page.png');
+  --background-image-herobooking: url('/assets/img/hero/booking_hero2.png');
+  --background-image-herosports: url('/assets/img/sports/hero_sports.png');
+  
 }
 
 body {

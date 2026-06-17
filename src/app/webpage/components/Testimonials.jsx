@@ -4,7 +4,7 @@ import Pretile from "./Pretitle";
 import Slider from "./Slider";
 
 import { motion } from "framer-motion";
-import { fadeIn } from "../../variants";
+import { fadeIn } from "../../../../variants";
 
 const Testimonials = () => {
   return (
@@ -26,7 +26,7 @@ const Testimonials = () => {
               experiences of working with us. See how we've helped them bring
               their dreams to life with expert craftmanship.
             </p>
-            <Button text="Work with us" />
+            <Button text="Read More" />
           </motion.div>
           <motion.div
             className="flex-1 flex flex-col xl:flex-row  xl:justify-end"

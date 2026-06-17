@@ -9,7 +9,7 @@ import {
 } from "react-icons/ri";
 import Socials from "./Socials";
 import { motion } from "framer-motion";
-import { fadeIn } from "../../variants";
+import { fadeIn } from "../../../../variants";
 
 const Footer = () => {
   return (

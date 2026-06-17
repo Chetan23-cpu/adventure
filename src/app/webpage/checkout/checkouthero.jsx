@@ -1,11 +1,10 @@
-import Button from "./Buttom";
-
 import { motion } from "framer-motion";
-import { fadeIn } from "../../variants";
+import Button from "../components/Buttom";
+import { fadeIn } from "@/variants";
 
-const Hero = () => {
-  return (
-    <section className="h-[70vh] bg-hero bg-no-repeat bg-cover bg-center relative">
+const Herocheckout = () => {
+    return (
+        <section className="h-[60vh] bg-herobooking bg-no-repeat bg-cover bg-center relative">
       {/* overlay */}
       <div className="absolute inset-0 bg-gradient-to-l from-black/0 via-black/50 to-black/70 z-10">
         <div className="container mx-auto h-full flex items-center">
@@ -17,8 +16,8 @@ const Hero = () => {
               viewport={{ once: false, amount: 0.8 }}
               className="h1 mb-4"
             >
-              <span className="text-accent">Building </span>
-              <span className="text-white">robust lasting solutions</span>
+              <span className="text-accent">Checkout </span>
+              <span className="text-white"> Just Pay and Get Set</span>
             </motion.h1>
             <motion.p
               className="text-white"
@@ -27,9 +26,8 @@ const Hero = () => {
               whileInView="show"
               viewport={{ once: false, amount: 0.8 }}
             >
-              From concept to completion, we ensure every details is optimized
-              for strength and endurance, creating solution and inspire and
-              stand firm for years.
+              Reserve your preferred court for badminton, tennis, volleyball, 
+              or pickleball in just a few clicks and enjoy a seamless playing experience at our premium sports facility.
             </motion.p>
             <motion.div
               className="mt-9"
@@ -38,13 +36,12 @@ const Hero = () => {
               whileInView="show"
               viewport={{ once: false, amount: 0.8 }}
             >
-              <Button text="See our work" />
             </motion.div>
           </div>
         </div>
       </div>
     </section>
-  );
-};
+    )
+}
 
-export default Hero;
+export default Herocheckout;

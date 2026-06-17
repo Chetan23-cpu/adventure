@@ -1,0 +1,73 @@
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.pretile{
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+}
+
+.maincard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 20px 30px;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.features{
+    padding: 10px 20px;
+    border: 1px solid #666;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #ffca3b;
+    color: black;
+    font-weight: 700;
+}
+.bullet_points {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 15px 0;
+}
+
+.dot {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    line-height: 1.5;
+}
+
+.dot::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    min-width: 8px;
+    border-radius: 50%;
+    background-color: #ffca3b;
+    margin-top: 8px;
+}
+
+.button{
+    margin-top: 40px;
+}
+.active {
+    background-color: #121315;
+    color: #ffca3b;
+}

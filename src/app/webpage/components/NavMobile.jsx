@@ -7,7 +7,7 @@ import {
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@/components/ui/sheet";
+} from "./ui/sheet";
 
 import { RiMenu3Fill } from "react-icons/ri";
 import { useState } from "react";

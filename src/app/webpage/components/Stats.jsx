@@ -13,7 +13,7 @@ const statsData = [
   {
     endCountNum: 800,
     endCountText: "+",
-    text: "Successful Projects",
+    text: "Successful Games",
   },
   {
     endCountNum: 32,

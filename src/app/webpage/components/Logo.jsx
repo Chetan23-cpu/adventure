@@ -5,7 +5,7 @@ const Logo = () => {
   return (
     <Link href="/" className="inline-block">
       <Image
-        src="/assets/logo.svg"
+        src="/assets/logo2.png"
         width={230}
         height={40}
         alt="Logo"

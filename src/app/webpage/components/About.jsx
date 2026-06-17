@@ -3,7 +3,7 @@ import Pretile from "./Pretitle";
 import Button from "./Buttom";
 
 import { motion } from "framer-motion";
-import { fadeIn } from "../../variants";
+import { fadeIn } from "../../../../variants";
 
 const About = () => {
   return (
@@ -23,13 +23,11 @@ const About = () => {
               <Pretile text="About us" />
 
               <h2 className="h2 mb-6">
-                Focused On Excellence In Every Project
+                Focused On Excellence In Every Game
               </h2>
 
               <p className="mb-11">
-                Our unwavering commitment to excellence drives every project we
-                undertake. From concept to completion, we meticulously craft
-                solutions that embody quality, precision, and innovation.
+                With premium courts, modern amenities, and a passion for excellence, we are committed to creating unforgettable sporting experiences. From beginners taking their first steps onto the field to seasoned athletes pushing their limits, NETPLAY ARENA is where dedication meets opportunity.
               </p>
 
               {/* signature */}
@@ -44,7 +42,7 @@ const About = () => {
                 <p>Company CEO</p>
               </div>
 
-              <Button text="Contact us" />
+              <Button text="Learn More" />
             </motion.div>
           </div>
 

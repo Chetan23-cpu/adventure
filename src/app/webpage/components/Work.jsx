@@ -5,31 +5,31 @@ import Pretile from "./Pretitle";
 import { RiArrowRightUpLine, RiCheckboxCircleFill } from "react-icons/ri";
 
 import { motion } from "framer-motion";
-import { fadeIn } from "../../variants";
+import { fadeIn } from "../../../../variants";
 
 const workData = [
   {
     img: "/assets/img/work/restoration.jpg",
-    name: "restoration",
-    description: "Your short description",
+    name: "Badminton",
+    description: "Shuttle Smash Challenge",
     href: "",
   },
   {
     img: "/assets/img/work/construction.jpg",
-    name: "construction",
-    description: "Your short description",
+    name: "Pickleball",
+    description: "Pickle Power Clash",
     href: "",
   },
   {
     img: "/assets/img/work/renovation.jpg",
-    name: "renovation",
-    description: "Your short description",
+    name: "Tennis",
+    description: "Court Ace Battle",
     href: "",
   },
   {
     img: "/assets/img/work/consulting.jpg",
-    name: "consulting",
-    description: "Your short description",
+    name: "Volleyball",
+    description: "Net Spike Showdown",
     href: "",
   },
 ];
@@ -45,11 +45,10 @@ const Work = () => {
           whileInView="show"
           viewport={{ once: false, amount: 0.2 }}
         >
-          <Pretile text="Our Work" center />
-          <h2 className="h2 mb-3">Discover Our Projects</h2>
+          <Pretile text="Events" center />
+          <h2 className="h2 mb-3">Upcoming Events</h2>
           <p className="mb-11 max-w-[480px] mx-auto">
-            Providing expert services designer to deliver quality and innovation
-            in every project we undertake.
+            Join our events and challange yourself.
           </p>
         </motion.div>
       </div>

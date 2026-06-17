@@ -16,16 +16,20 @@ const links = [
     path: "about",
   },
   {
-    name: "services",
+    name: "sports",
     path: "services",
   },
   {
-    name: "projects",
+    name: "amenities",
     path: "projects",
   },
   {
-    name: "contacts",
-    path: "contacts",
+    name: "classes",
+    path: "classes",
+  },
+  {
+    name: "events",
+    path: "events",
   },
 ];
 
@@ -59,7 +63,7 @@ const Header = () => {
 
             <button className="w-[200px] h-[54px] py-[5px] pl-[10px] pr-[5px] flex items-center justify-between min-w-[200px] bg-white group">
               <div className="flex-1 text-center tracking-[1.2px] font-primary font-bold text-primary text-sm uppercase">
-                Get a quote
+                Book Now
               </div>
               <div className="w-11 h-11 bg-primary flex items-center justify-center">
                 <RiArrowRightUpLine

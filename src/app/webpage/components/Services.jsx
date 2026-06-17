@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Tabs, TabsContent, TabsTrigger } from "@/components/ui/tabs";
+import { Tabs, TabsContent, TabsTrigger } from "./ui/tabs";
 import Image from "next/image";
 import Button from "./Buttom";
 
@@ -16,22 +16,22 @@ import { div } from "framer-motion/client";
 import Pretile from "./Pretitle";
 
 import { motion } from "framer-motion";
-import { fadeIn } from "../../variants";
+import { fadeIn } from "../../../../variants";
 
 const serviceData = [
   {
-    name: "construction",
+    name: "badminton",
     icon: <PiWallFill />,
-    title: "Construction Services",
+    title: "Badminton",
     description:
-      "We build with precision and innovation, ensuring that every structure is strong, reliable, and build to last. From foundation to finishing touches, our expertise transforms ideas into reality",
+      "Step onto the court and unleash your potential with fast-paced badminton action at NETPLAY ARENA. Our world-class courts offer the ideal setting for training, competition, and recreational play. Gather your friends, challenge your opponents, and enjoy the thrill of every rally.",
     serviceList: [
-      "Residential Builds",
-      "Structural Design",
-      "Site Prep",
-      "Concrete Work",
-      "Framing & Roofing",
-      "Interior Finish",
+      "Professional-grade courts",
+      "Suitable for all",
+      "Bright, well-maintained courts",
+      "Wooden Floor",
+      "Regular coaching programs",
+      "Safe, clean, and spacious",
     ],
     thumbs: [
       { url: "/assets/img/services/thumb-1.jpg" },
@@ -39,18 +39,18 @@ const serviceData = [
     ],
   },
   {
-    name: "renovation",
+    name: "pickleball",
     icon: <PiPaintRollerFill />,
-    title: "Renovation Services",
+    title: "Pickleball",
     description:
-      "Revitailizing spaces with modern design and high-quality craftmanship. Whether upgrading a home or remodeling a office, webring fresh life to every project.",
+      "Pickleball is a fast-growing paddle sport that combines elements of tennis, badminton, and table tennis. It is played on a smaller court with a perforated plastic ball and solid paddles, making it easy to learn and fun for all age groups. The game can be played in singles or doubles and is popular for both recreational and competitive play",
     serviceList: [
-      "Kitchen Remodel",
-      "Basement Finish",
-      "Flooring",
-      "Energy Upgrade",
-      "Carpentary",
-      "Painting",
+      "singles or doubles.",
+      "Recreational",
+      "Easy to learn",
+      "Fast-paced",
+      "low-impact",
+      "for all ages",
     ],
     thumbs: [
       { url: "/assets/img/services/thumb-3.jpg" },
@@ -58,18 +58,18 @@ const serviceData = [
     ],
   },
   {
-    name: "restoration",
+    name: "Tennis",
     icon: <PiWrenchFill />,
-    title: "Restoration Services",
+    title: "Tennis",
     description:
-      "Brining damaged or aging structures back to life. We specialize in restoring historical landmarks, fire-damaged buildings, and water-damaged properties with meticulous care.",
+      "Our tennis facility is designed to deliver a premium playing experience for all skill levels. The court is built with standard surfaces to ensure fair play and better performance. Whether you are practicing alone, playing with friends, or training competitively, our tennis court provides the ideal setup.",
     serviceList: [
-      "Historic Restore",
-      "Water Damage",
-      "Fire Repair",
+      "Standard-size tennis court",
+      "High-quality surface",
+      "singles and doubles matches",
       "Structural Fix",
-      "Mold Removal",
-      "Roof Restore",
+      "proper lighting",
+      "coaching sessions",
     ],
     thumbs: [
       { url: "/assets/img/services/thumb-5.jpg" },
@@ -77,17 +77,17 @@ const serviceData = [
     ],
   },
   {
-    name: "consultation",
+    name: "Vollyball",
     icon: <PiUserGearFill />,
-    title: "Consultation Services",
+    title: "Vollyball",
     description:
-      "Providing expert guidance for construction and renovation projects. From planning and budgeting to complaince and sustainability, our consulting services ensure project success.",
+      "Our sports complex offers a well-maintained volleyball court designed for both casual play and competitive matches. With high-quality flooring, proper net setup, and ample lighting, players can enjoy a smooth and energetic game experience. Whether you are a beginner or an experienced player, our facility provides the perfect environment to improve skills and enjoy team sports.",
     serviceList: [
-      "Project Plans",
-      "Costing",
-      "Site Management",
-      "Permits",
-      "Sustainability",
+      "Professionally maintained court",
+      "standard court dimensions",
+      "competitive matches",
+      "night games",
+      "practice sessions",
       "Safety",
     ],
     thumbs: [
@@ -103,7 +103,7 @@ const fadeInVarient = {
 };
 
 const Services = () => {
-  const [activeTab, setActiveTab] = useState("construction");
+  const [activeTab, setActiveTab] = useState("badminton");
 
   return (
     <section className="pt-16 xl:pt-32" id="services">
@@ -116,10 +116,10 @@ const Services = () => {
           viewport={{ once: false, amount: 0.2 }}
         >
           <Pretile text={"Our Services"} center />
-          <h2 className="h2 mb-3">Solutions We Provide</h2>
+          <h2 className="h2 mb-3">Sports We Offer</h2>
           <p className="mb-11 max-w-[480px] mx-auto">
-            Offering tailored construction solutions, from planning to
-            completion, with a focus on quality and innovation
+            World-class facilities, professional standards, 
+            and unforgettable sporting experiences await.
           </p>
         </motion.div>
         <motion.div
@@ -200,7 +200,7 @@ const Services = () => {
                           })}
                         </ul>
                         {/*Button */}
-                        <Button text="Read More" />
+                        <Button text="Book Now" />
                       </div>
                     </div>
                   </motion.div>
