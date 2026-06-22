@@ -58,12 +58,12 @@ const About = () => {
               <div className="hidden xl:block absolute -top-4 -left-4 -z-10 w-[444px] h-[493px] bg-accent" />
 
               <Image
-                src="/assets/img/about/img.jpg"
+                src="/assets/img/about/main_about.png"
                 width={444}
-                height={492}
-                alt="About"
-                priority
-                className="object-cover"
+                    height={492}
+                    alt="About"
+                    priority
+                    className="object-cover w-full h-full"
               />
             </div>
           </motion.div>

@@ -34,8 +34,8 @@ const serviceData = [
       "Safe, clean, and spacious",
     ],
     thumbs: [
-      { url: "/assets/img/services/thumb-1.jpg" },
-      { url: "/assets/img/services/thumb-2.jpg" },
+      { url: "/assets/img/services/badminton_thumb2.png" },
+      { url: "/assets/img/services/badminton_thumb.png" },
     ],
   },
   {
@@ -53,8 +53,8 @@ const serviceData = [
       "for all ages",
     ],
     thumbs: [
-      { url: "/assets/img/services/thumb-3.jpg" },
-      { url: "/assets/img/services/thumb-4.jpg" },
+      { url: "/assets/img/services/pickleball_thumb.png" },
+      { url: "/assets/img/services/pickleball2_thumb.png" },
     ],
   },
   {
@@ -72,8 +72,8 @@ const serviceData = [
       "coaching sessions",
     ],
     thumbs: [
-      { url: "/assets/img/services/thumb-5.jpg" },
-      { url: "/assets/img/services/thumb-6.jpg" },
+      { url: "/assets/img/services/tennis_thumb.png" },
+      { url: "/assets/img/services/tennis_thumb2.png" },
     ],
   },
   {
@@ -91,8 +91,8 @@ const serviceData = [
       "Safety",
     ],
     thumbs: [
-      { url: "/assets/img/services/thumb-1.jpg" },
-      { url: "/assets/img/services/thumb-3.jpg" },
+      { url: "/assets/img/services/volley_thumb.png" },
+      { url: "/assets/img/services/volley_thumb2.png" },
     ],
   },
 ];

@@ -9,25 +9,25 @@ import { fadeIn } from "../../../../variants";
 
 const workData = [
   {
-    img: "/assets/img/work/restoration.jpg",
+    img: "/assets/img/work/badminton_event.png",
     name: "Badminton",
     description: "Shuttle Smash Challenge",
     href: "",
   },
   {
-    img: "/assets/img/work/construction.jpg",
+    img: "/assets/img/work/pickleball_event.png",
     name: "Pickleball",
     description: "Pickle Power Clash",
     href: "",
   },
   {
-    img: "/assets/img/work/renovation.jpg",
+    img: "/assets/img/work/tennis_event.png",
     name: "Tennis",
     description: "Court Ace Battle",
     href: "",
   },
   {
-    img: "/assets/img/work/consulting.jpg",
+    img: "/assets/img/work/volley_event.png",
     name: "Volleyball",
     description: "Net Spike Showdown",
     href: "",

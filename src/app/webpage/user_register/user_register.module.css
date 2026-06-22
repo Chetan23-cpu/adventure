@@ -1,0 +1,107 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url('/assets/img/hero/hero_home_page.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative; 
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.5), rgba(0,0,0,0.7));
+    z-index: 10;
+}
+
+.cardouter{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 100%;             
+    width: 100%;
+    padding-right: 100px;
+}
+
+.card{
+    
+    height: 80vh;
+    width: 30%;
+    background-color: aliceblue ;
+    border-radius: 15px;
+    opacity: 0.9;
+    
+}
+
+.header{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.inputsection{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.remember{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 40px 20px 40px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.input{
+    border: 1px solid #666;
+    padding: 10px;
+    border-radius: 5px;
+}
+.signup{
+    text-align: center;
+    color: #666;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.orDivider{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    margin-top: 25px;
+    justify-items: center;
+}
+
+.line1{
+    flex: 1;
+    height: 1px;
+    background-color: #666;
+    margin-left: 30px;
+}
+.line2{
+    flex: 1;
+    height: 1px;
+    background-color: #666;
+    margin-right: 40px;
+}
+
+.label{
+    color: #666;
+    font-weight: 500;
+}

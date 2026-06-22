@@ -24,7 +24,7 @@ const Hero = () => {
               className="text-white"
               variants={fadeIn("up", 0.6)}
               initial="hidden"
-              whileInView="show"
+              whileInView="show" 
               viewport={{ once: false, amount: 0.8 }}
             >
               Experience world-class sports facilities, competitive action, 
