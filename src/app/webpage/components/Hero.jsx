@@ -2,10 +2,11 @@ import Button from "./Buttom";
 
 import { motion } from "framer-motion";
 import { fadeIn } from "../../../../variants";
+import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="h-[80vh] bg-hero bg-no-repeat bg-cover bg-center relative">
+    <section className="h-[80vh] bg-hero bg-no-repeat bg-cover bg-center relative z-[1]">
       {/* overlay */}
       <div className="absolute inset-0 bg-gradient-to-l from-black/0 via-black/50 to-black/70 z-10">
         <div className="container mx-auto h-full flex items-center">
@@ -38,7 +39,10 @@ const Hero = () => {
               whileInView="show"
               viewport={{ once: false, amount: 0.8 }}
             >
-              <Button text="Take a Tour" />
+              <Link href="/sports">
+                <Button text="Take a Tour" />
+              </Link>
+              
             </motion.div>
           </div>
         </div>

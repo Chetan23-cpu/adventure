@@ -17,6 +17,7 @@ import Pretile from "./Pretitle";
 
 import { motion } from "framer-motion";
 import { fadeIn } from "../../../../variants";
+import Link from "next/link";
 
 const serviceData = [
   {
@@ -118,8 +119,8 @@ const Services = () => {
           <Pretile text={"Our Services"} center />
           <h2 className="h2 mb-3">Sports We Offer</h2>
           <p className="mb-11 max-w-[480px] mx-auto">
-            World-class facilities, professional standards, 
-            and unforgettable sporting experiences await.
+            World-class facilities, professional standards, and unforgettable
+            sporting experiences await.
           </p>
         </motion.div>
         <motion.div
@@ -180,7 +181,7 @@ const Services = () => {
                     {/* text and button */}
                     <div>
                       <div>
-                        <h3 className="h3 mb-6">{item.title}</h3>
+                        <h3 className={`h3 mb-6 services_title`}>{item.title}</h3>
                         <p className="mb-10">{item.description}</p>
 
                         {/* Service List */}
@@ -200,7 +201,9 @@ const Services = () => {
                           })}
                         </ul>
                         {/*Button */}
-                        <Button text="Book Now" />
+                        <Link href="/booking">
+                          <Button text="Book Now" />
+                        </Link>
                       </div>
                     </div>
                   </motion.div>

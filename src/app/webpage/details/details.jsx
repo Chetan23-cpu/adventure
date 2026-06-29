@@ -1,5 +1,6 @@
 import Button from "../components/Buttom";
 import styles from "./details.module.css";
+import Link from "next/link";
 
 const Detailspage = () => {
   return (
@@ -59,7 +60,10 @@ const Detailspage = () => {
             />
           </div>
           <div className={styles.button}>
-            <Button text="Checkout" />
+            <Link href="/checkout">
+              <Button text="Checkout" />
+            </Link>
+            
           </div>
         </div>
 

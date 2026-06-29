@@ -1,7 +1,45 @@
-.button{
+.button {
     padding: 15px;
-    background-color: #ffca3b;;
+    background-color: #ffca3b;
     border-radius: 50%;
     color: black;
     cursor: pointer;
+}
+
+.button_wrapper {
+    position: relative;
+    display: flex;          /* ✅ shrinks wrapper to button size */
+    align-items: center;
+}
+
+.user_card {
+    position: absolute;
+    top: calc(100% + 10px);
+    right: -70px;               /* ✅ aligns to right edge of button */
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 10px;
+    min-width: 180px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    white-space: nowrap;    /* ✅ prevents text wrapping */
+}
+
+.user_card h4 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #333;
+    transition: background 0.15s;
+}
+
+.user_card h4:hover {
+    background-color: #f5f5f5;
 }

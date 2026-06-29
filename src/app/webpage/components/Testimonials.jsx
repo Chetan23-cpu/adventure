@@ -38,7 +38,7 @@ const Testimonials = () => {
             {/* image and slider */}
             <div className="relative hidden xl:flex xl:w-[570px] xl:h-[580px]">
               <Image
-                src="/assets/img/testimonials/img.jpg"
+                src="/assets/img/testimonials/testimonials.png"
                 fill
                 className="object-cover"
                 quality={100}

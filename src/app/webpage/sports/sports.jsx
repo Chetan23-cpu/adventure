@@ -10,6 +10,7 @@ import Badminton_pricing from "./price";
 import Pickleball_pricing from "./pickleball_price";
 import Tennis_pricing from "./tennis_price";
 import Volleyball_pricing from "./vollyball_price";
+import Link from "next/link";
 
 const Sportspage = () => {
   const [activeTab, setActiveTab] = useState("features");
@@ -76,7 +77,10 @@ const Sportspage = () => {
                     </div>
                   )}
                   <div className={styles.button}>
-                    <Button text="Book Now" />
+                    <Link href='/booking'>
+                      <Button text="Book Now" />
+                    </Link>
+                    
                   </div>
                 </motion.div>
               </div>
@@ -168,7 +172,9 @@ const Sportspage = () => {
                     <Tennis_pricing />
                   )}
                   <div className={styles.button}>
-                    <Button text="Book Now" />
+                    <Link href='/booking'>
+                      <Button text="Book Now" />
+                    </Link>
                   </div>
                   
                 </motion.div>
@@ -223,7 +229,10 @@ const Sportspage = () => {
                     <Pickleball_pricing />   
                 )}
                   <div className={styles.button}>
-                    <Button text="Book Now" />
+                    <Link href="/booking">
+                      <Button text="Book Now" />
+                    </Link>
+                    
                   </div>
                   
                 
@@ -318,7 +327,9 @@ const Sportspage = () => {
                     <Volleyball_pricing />
                   )}
                   <div className={styles.button}>
-                    <Button text="Book Now" />
+                    <Link href='/booking'>
+                      <Button text="Book Now" />
+                    </Link>
                   </div>
                 </motion.div>
               </div>

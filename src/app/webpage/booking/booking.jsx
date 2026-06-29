@@ -2,6 +2,7 @@ import styles from "./booking.module.css";
 import Button from "../components/Buttom";
 import Image from "next/image";
 import Pretile from "../components/Pretitle";
+import Link from "next/link";
 const Bookingpage = () => {
   return (
     <div className={styles.pretile}>
@@ -73,7 +74,10 @@ const Bookingpage = () => {
             </div>
 
             <div className={styles.button}>
-              <Button text="Book Now" />
+              <Link href="/details">
+                <Button text="Book Now" />
+              </Link>
+              
             </div>
           </div>
         </div>

@@ -42,7 +42,7 @@ const About = () => {
                 <p>Company CEO</p>
               </div>
 
-              <Button text="Learn More" />
+              <Button text="Learn More"/>
             </motion.div>
           </div>
 

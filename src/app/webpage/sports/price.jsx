@@ -65,7 +65,7 @@ const Badminton_pricing = () => {
         {activeTab === "badminton_double" && (
           <>
             <div className={styles.table1}>
-              <h2 className={styles.heading}>Daily</h2>
+              <h2 className={styles.heading}>Daily</h2> 
               <h1 className={styles.price}>$18</h1>
               <p className={styles.details}>2 Players</p>
               <p className={styles.details}>45 min play</p>
